@@ -13,8 +13,8 @@ class JWTAuthenticationFilter(private val jwtUtil: JWTUtil) : OncePerRequestFilt
         val token = request.getHeader("Authorization")
         val jwt = getTokenDetail(token)
         if(jwtUtil.isValid(jwt)) {
-            val authentication = jwtUtil.getAuthentication(jwt)
-            SecurityContextHolder.getContext().authentication = authentication
+           val authentication = jwtUtil.getAuthentication(jwt)
+           SecurityContextHolder.getContext().authentication = authentication
         }
         filterChain.doFilter(request, response)
     }

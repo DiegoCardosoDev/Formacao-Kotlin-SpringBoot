@@ -8,25 +8,26 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication
 import org.springframework.security.core.GrantedAuthority
 import org.springframework.stereotype.Component
+import java.lang.IllegalArgumentException
 import java.util.*
 
 @Component
 class JWTUtil(
-    private val usuarioService: UsuarioService
+        private val usuarioService: UsuarioService
 ) {
 
-    private val expiration: Long = 60000
+    private val expiration : Long = 60000
 
     @Value("\${jwt.secret}")
-    private lateinit var secret: String
+    private lateinit var secret : String
 
     fun generateToken(username: String, authorities: MutableCollection<out GrantedAuthority>): String? {
         return Jwts.builder()
-            .setSubject(username)
-            .claim("role", authorities)
-            .setExpiration(Date(System.currentTimeMillis() + expiration))
-            .signWith(SignatureAlgorithm.HS512, secret.toByteArray())
-            .compact()
+                .setSubject(username)
+                .claim("role", authorities)
+                .setExpiration(Date(System.currentTimeMillis() + expiration))
+                .signWith(SignatureAlgorithm.HS512, secret.toByteArray())
+                .compact()
     }
 
     fun isValid(jwt: String?): Boolean {

@@ -13,9 +13,9 @@ import javax.servlet.http.HttpServletRequest
 import javax.servlet.http.HttpServletResponse
 
 class JWTLoginFilter(
-    private val authManager: AuthenticationManager,
-    private val jwtUtil: JWTUtil
-) : UsernamePasswordAuthenticationFilter() {
+        private val authManager: AuthenticationManager,
+        private val jwtUtil: JWTUtil)
+    : UsernamePasswordAuthenticationFilter() {
 
     override fun attemptAuthentication(request: HttpServletRequest?, response: HttpServletResponse?): Authentication {
         val(username, password) = ObjectMapper().readValue(request?.inputStream, Credentials::class.java)
@@ -28,4 +28,5 @@ class JWTLoginFilter(
         val token = jwtUtil.generateToken(user.username, user.authorities)
         response?.addHeader("Authorization", "Bearer $token")
     }
+
 }
