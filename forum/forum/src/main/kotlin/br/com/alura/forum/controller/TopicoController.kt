@@ -4,6 +4,8 @@ import br.com.alura.forum.dto.AtualizacaoTopicoForm
 import br.com.alura.forum.dto.NovoTopicoForm
 import br.com.alura.forum.dto.TopicoView
 import br.com.alura.forum.service.TopicoService
+import org.springframework.cache.annotation.CacheEvict
+import org.springframework.cache.annotation.Cacheable
 import org.springframework.data.domain.Page
 import org.springframework.data.domain.Pageable
 import org.springframework.data.domain.Sort
@@ -14,16 +16,17 @@ import org.springframework.transaction.annotation.Transactional
 import org.springframework.web.bind.annotation.*
 import org.springframework.web.util.UriComponentsBuilder
 import javax.validation.Valid
-import javax.validation.constraints.NotNull
 
 @RestController
 @RequestMapping("/topicos")
 class TopicoController(private val service: TopicoService) {
 
     @GetMapping
+    @Cacheable("topicos")
+    @CacheEvict(value = ["topicos"], allEntries = true)
     fun listar(
-            @RequestParam(required = false) nomeCurso: String?,
-            @PageableDefault(size = 5, sort = ["dataCriacao"], direction = Sort.Direction.DESC) paginacao: Pageable
+        @RequestParam(required = false) nomeCurso: String?,
+        @PageableDefault(size = 5, sort = ["dataCriacao"], direction = Sort.Direction.DESC) paginacao: Pageable
     ): Page<TopicoView> {
         return service.listar(nomeCurso, paginacao)
     }
@@ -36,8 +39,8 @@ class TopicoController(private val service: TopicoService) {
     @PostMapping
     @Transactional
     fun cadastrar(
-            @RequestBody @Valid form: NovoTopicoForm,
-            uriBuilder: UriComponentsBuilder
+        @RequestBody @Valid form: NovoTopicoForm,
+        uriBuilder: UriComponentsBuilder
     ): ResponseEntity<TopicoView> {
         val topicoView = service.cadastrar(form)
         val uri = uriBuilder.path("/topicos/${topicoView.id}").build().toUri()
@@ -51,6 +54,7 @@ class TopicoController(private val service: TopicoService) {
         return ResponseEntity.ok(topicoView)
     }
 
+    @CacheEvict(value = ["topicos"], allEntries = true)
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @Transactional
