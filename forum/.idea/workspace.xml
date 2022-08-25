@@ -4,156 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63003119-c309-4a25-80bb-4228445b96c8" name="Changes" comment="feat:adicao do flyway">
-      <change afterPath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V1__create_table_curso.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V2__create_table_usuario.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V3__create_table_topico.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_kotlin_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_2_1_214.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_65.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_65.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_65.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_8_5_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_10_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_4_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_reflect_1_6_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_6_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_6_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_6_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_6_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/forum/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forum/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/forum/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/forum/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/ForumApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/ForumApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/controller/HelloController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/controller/HelloController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/controller/TopicoController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/controller/TopicoController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/AtualizacaoTopicoForm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/AtualizacaoTopicoForm.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/ErrorView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/ErrorView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/NovoTopicoForm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/NovoTopicoForm.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/TopicoView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/TopicoView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/exception/ExceptionHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/exception/ExceptionHandler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/exception/NotFoundException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/exception/NotFoundException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/mapper/Mapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/mapper/Mapper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/mapper/TopicoFormMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/mapper/TopicoFormMapper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/mapper/TopicoViewMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/mapper/TopicoViewMapper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Curso.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Curso.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Resposta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Resposta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/StatusTopico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/StatusTopico.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Topico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Topico.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Usuario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Usuario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/repository/CursoRepo.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/repository/TopicoRepo.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/repository/UsuarioRepo.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/service/CursoService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/service/CursoService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/service/TopicoService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/service/TopicoService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/service/UsuarioService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/service/UsuarioService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/ForumApiApplicationTests.kt" beforeDir="false" />
+    <list default="true" id="f59d7a83-a6c7-4527-93f5-61573522f076" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/ForumApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/config/JwtUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/config/OpenAPI3Config.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/config/SecurityConfiguration.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/controller/HelloController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/controller/TopicoController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/AtualizacaoTopicoForm.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/ErrorView.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/NovoTopicoForm.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/TopicoPorCategoriaDto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/TopicoView.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/exception/ExceptionHandler.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/exception/NotFoundException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/mapper/Mapper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/mapper/TopicoFormMapper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/mapper/TopicoViewMapper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Credentials.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Curso.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Resposta.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Role.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/StatusTopico.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Topico.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Usuario.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/repository/CursoRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/repository/TopicoRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/repository/UsuarioRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/security/JWTAuthenticationFilter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/security/JWTLoginFilter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/service/CursoService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/service/TopicoService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/service/UserDetail.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/service/UsuarioService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V10__alter_table_topico_add_data_alteracao.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V1__create_table_curso.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V2__create_table_usuario.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V3__create_table_topico.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V4__create_table_resposta.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V5__alter_table_usuario_add_password.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V6__insert_password_usuario.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V7__create_table_role.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V8__create_table_usuario_role.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V9__insert_topico.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/controller/TopicoControllerTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/integration/TopicoRepositoryTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/model/CursoTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/model/TopicoTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/model/TopicoViewTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/model/UsuarioTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/service/TopicoServiceTest.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Kotlin Interface" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -164,11 +81,12 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2DlYw88SPJLH7dQKlhb2s58g389" />
+  <component name="ProjectId" id="2Dqp2lHf2ReY3DSabyZr9XS62vE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -178,15 +96,74 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/dcardosodo/Documents/formacoes-alura/formaca-kotlin-spring/Formacao-Kotlin-SpringBoot/forum/forum"
+    "last_opened_file_path": "C:/Users/dcardosodo/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.3/spring-boot-autoconfigure-2.7.3.jar",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dcardosodo\Documents\formacoes-alura\formaca-kotlin-spring\Formacao-Kotlin-SpringBoot\forum\forum\src\main\resources\db\migration" />
-    </key>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TopicoRepositoryTest.deve gerar um relatorio">
+    <configuration name="ForumApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="forum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.forum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.forum" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.ForumApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicoRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="forum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.forum.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.forum.integration" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.integration.TopicoRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicoRepositoryTest.deve gerar um relatorio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="forum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.forum.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.forum.integration" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.integration.TopicoRepositoryTest" />
+      <option name="METHOD_NAME" value="deve gerar um relatorio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="forum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.forum.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.forum.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.service.TopicoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ForumApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.ForumApplicationKt" />
       <module name="forum" />
@@ -196,116 +173,23 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TopicoRepositoryTest.deve gerar um relatorio" />
+        <item itemvalue="JUnit.TopicoRepositoryTest" />
+        <item itemvalue="JUnit.ForumApplicationTests" />
         <item itemvalue="Kotlin.ForumApplicationKt" />
+        <item itemvalue="JUnit.TopicoServiceTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="63003119-c309-4a25-80bb-4228445b96c8" name="Changes" comment="" />
-      <created>1661275374241</created>
+      <changelist id="f59d7a83-a6c7-4527-93f5-61573522f076" name="Changes" comment="" />
+      <created>1661436271939</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1661275374241</updated>
+      <updated>1661436271939</updated>
     </task>
-    <task id="LOCAL-00001" summary="organização">
-      <created>1661275602315</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1661275602315</updated>
-    </task>
-    <task id="LOCAL-00002" summary="organização">
-      <created>1661275645755</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1661275645755</updated>
-    </task>
-    <task id="LOCAL-00003" summary="feat:mapeamento das entidades">
-      <created>1661286422709</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1661286422709</updated>
-    </task>
-    <task id="LOCAL-00004" summary="arquivos">
-      <created>1661286435361</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1661286435361</updated>
-    </task>
-    <task id="LOCAL-00005" summary="feat:repositories implementados">
-      <created>1661288457694</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1661288457694</updated>
-    </task>
-    <task id="LOCAL-00006" summary="feat:ajuste nos services">
-      <created>1661288498079</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1661288498079</updated>
-    </task>
-    <task id="LOCAL-00007" summary="feat:ajuste no controller">
-      <created>1661288520772</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1661288520772</updated>
-    </task>
-    <task id="LOCAL-00008" summary="feat:ajuste no propriedade mensagem e titulo">
-      <created>1661288540625</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1661288540625</updated>
-    </task>
-    <task id="LOCAL-00009" summary="feat:ajuste no pom">
-      <created>1661289123128</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1661289123128</updated>
-    </task>
-    <task id="LOCAL-00010" summary="feat:adicao do flyway">
-      <created>1661291148730</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1661291148730</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="organização" />
-    <MESSAGE value="feat:mapeamento das entidades" />
-    <MESSAGE value="arquivos" />
-    <MESSAGE value="feat:repositories implementados" />
-    <MESSAGE value="feat:ajuste nos services" />
-    <MESSAGE value="feat:ajuste no controller" />
-    <MESSAGE value="feat:ajuste no propriedade mensagem e titulo" />
-    <MESSAGE value="feat:ajuste no pom" />
-    <MESSAGE value="feat:adicao do flyway" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:adicao do flyway" />
   </component>
 </project>
