@@ -1,235 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="f59d7a83-a6c7-4527-93f5-61573522f076" name="Changes" comment="feat:implementação do endpoint para relatórios">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/config/SwaggerConfig.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/controller/RelatorioController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/controller/RelatorioController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/controller/RespostaContrller.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/controller/TopicoController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/controller/TopicoController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/dto/TopicoView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/dto/TopicoView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Topico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Topico.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/repository/RespostaRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/repository/RespostaRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/repository/TopicoRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/repository/TopicoRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/EmailService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/EmailService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/RespostaService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/RespostaService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/TopicoService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/TopicoService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/UsuarioService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/UsuarioService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V11__insert_info_usuario_role_usuario_role.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V11__insert_info_usuario_role_usuario_role.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/ForumApplicationTests.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/controller/TopicoControllerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/controller/TopicoControllerTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/integration/TopicoRepositoryTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/integration/TopicoRepositoryTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/service/TopicoServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/service/TopicoServiceTest.kt" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Kotlin Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2Dqp2lHf2ReY3DSabyZr9XS62vE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dcardosodo/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.3/spring-boot-autoconfigure-2.7.3.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
-  }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="br.com.alura.forum.repository" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.br.com.alura.forum in forum">
-    <configuration name="TopicoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="TopicoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="forum" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.forum.service.*" />
+          <option name="PATTERN" value="br.com.alura.forum.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura.forum.service" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.service.TopicoServiceTest" />
+      <option name="PACKAGE_NAME" value="br.com.alura.forum.controller" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.controller.TopicoControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopicoServiceTest.deve listar todos os topicos quando nome do curso for nulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="forum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.forum.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura.forum.service" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.service.TopicoServiceTest" />
-      <option name="METHOD_NAME" value="deve listar todos os topicos quando nome do curso for nulo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopicoServiceTest.deve listar topico por nome do curso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="forum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.forum.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura.forum.service" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.service.TopicoServiceTest" />
-      <option name="METHOD_NAME" value="deve listar topico por nome do curso" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="br.com.alura.forum in forum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="forum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.forum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura.forum" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForumApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.ForumApplicationKt" />
-      <module name="forum" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.br.com.alura.forum in forum" />
-        <item itemvalue="JUnit.TopicoServiceTest" />
-        <item itemvalue="JUnit.TopicoServiceTest.deve listar topico por nome do curso" />
-        <item itemvalue="JUnit.TopicoServiceTest.deve listar todos os topicos quando nome do curso for nulo" />
-        <item itemvalue="Kotlin.ForumApplicationKt" />
+        <item itemvalue="JUnit.TopicoControllerTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="f59d7a83-a6c7-4527-93f5-61573522f076" name="Changes" comment="" />
-      <created>1661436271939</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1661436271939</updated>
-    </task>
-    <task id="LOCAL-00001" summary="refatory full">
-      <created>1661440029106</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1661440029106</updated>
-    </task>
-    <task id="LOCAL-00002" summary="refatory full">
-      <created>1661440076283</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1661440076283</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add:adição de cache com redis">
-      <created>1661447457066</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1661447457066</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add:adição de cache nos services de Topicos">
-      <created>1661448651995</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1661448651995</updated>
-    </task>
-    <task id="LOCAL-00005" summary="feat:implementação do endpoint Resposta">
-      <created>1661449523114</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1661449523114</updated>
-    </task>
-    <task id="LOCAL-00006" summary="feat:implementação do endpoint para relatórios">
-      <created>1661454038093</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1661454038093</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
-    <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="refatory full" />
-    <MESSAGE value="add:adição de cache com redis" />
-    <MESSAGE value="add:adição de cache nos services de Topicos" />
-    <MESSAGE value="feat:implementação do endpoint Resposta" />
-    <MESSAGE value="feat:implementação do endpoint para relatórios" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:implementação do endpoint para relatórios" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/forum$TopicoRepositoryTest.ic" NAME="TopicoRepositoryTest Coverage Results" MODIFIED="1661439913556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>br.com.alura.forum.integration.*</FILTER>
-    </SUITE>
   </component>
 </project>
