@@ -23,8 +23,8 @@ class TopicoService(
 ) {
 
     fun listar(
-            nomeCurso: String?,
-            paginacao: Pageable
+        nomeCurso: String?,
+        paginacao: Pageable
     ): Page<TopicoView> {
         val topicos = nomeCurso?.let {
             repository.findByCursoNome(nomeCurso, paginacao)
