@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f59d7a83-a6c7-4527-93f5-61573522f076" name="Changes" comment="add:adição de cache com redis">
+    <list default="true" id="f59d7a83-a6c7-4527-93f5-61573522f076" name="Changes" comment="add:adição de cache nos services de Topicos">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/controller/RespostaContrller.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/repository/RespostaRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/RespostaService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/config/SecurityConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/config/SecurityConfiguration.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -42,6 +53,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="br.com.alura.forum.repository" />
+    </key>
+  </component>
   <component name="RunManager" selected="Kotlin.ForumApplicationKt">
     <configuration name="ForumApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="forum" />
@@ -151,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661447457066</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add:adição de cache nos services de Topicos">
+      <created>1661448651995</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661448651995</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +191,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refatory full" />
     <MESSAGE value="add:adição de cache com redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:adição de cache com redis" />
+    <MESSAGE value="add:adição de cache nos services de Topicos" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:adição de cache nos services de Topicos" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/forum$TopicoRepositoryTest.ic" NAME="TopicoRepositoryTest Coverage Results" MODIFIED="1661439913556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
