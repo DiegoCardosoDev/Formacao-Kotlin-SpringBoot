@@ -4,14 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f59d7a83-a6c7-4527-93f5-61573522f076" name="Changes" comment="feat:implementação do endpoint Resposta">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/controller/RelatorioController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/EmailService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V11__insert_info_usuario_role_usuario_role.sql" afterDir="false" />
+    <list default="true" id="f59d7a83-a6c7-4527-93f5-61573522f076" name="Changes" comment="feat:implementação do endpoint para relatórios">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/config/SwaggerConfig.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/controller/RelatorioController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/controller/RelatorioController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/controller/RespostaContrller.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/controller/TopicoController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/controller/TopicoController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/dto/TopicoView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/dto/TopicoView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Topico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Topico.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/repository/RespostaRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/repository/RespostaRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/repository/TopicoRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/repository/TopicoRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/EmailService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/EmailService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/RespostaService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/RespostaService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/TopicoService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/TopicoService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/UsuarioService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/UsuarioService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V11__insert_info_usuario_role_usuario_role.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V11__insert_info_usuario_role_usuario_role.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/ForumApplicationTests.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/controller/TopicoControllerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/controller/TopicoControllerTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/integration/TopicoRepositoryTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/integration/TopicoRepositoryTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/service/TopicoServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/service/TopicoServiceTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,53 +75,7 @@
       <recent name="br.com.alura.forum.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ForumApplicationKt">
-    <configuration name="ForumApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="forum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.forum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura.forum" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.ForumApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopicoRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="forum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.forum.integration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura.forum.integration" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.integration.TopicoRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopicoRepositoryTest.deve gerar um relatorio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="forum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.forum.integration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura.forum.integration" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.integration.TopicoRepositoryTest" />
-      <option name="METHOD_NAME" value="deve gerar um relatorio" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.br.com.alura.forum in forum">
     <configuration name="TopicoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="forum" />
       <extension name="coverage">
@@ -122,6 +91,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TopicoServiceTest.deve listar todos os topicos quando nome do curso for nulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="forum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.forum.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.forum.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.service.TopicoServiceTest" />
+      <option name="METHOD_NAME" value="deve listar todos os topicos quando nome do curso for nulo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicoServiceTest.deve listar topico por nome do curso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="forum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.forum.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.forum.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.service.TopicoServiceTest" />
+      <option name="METHOD_NAME" value="deve listar topico por nome do curso" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.com.alura.forum in forum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="forum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.forum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.forum" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ForumApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.ForumApplicationKt" />
       <module name="forum" />
@@ -131,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ForumApplicationKt" />
-        <item itemvalue="JUnit.TopicoRepositoryTest.deve gerar um relatorio" />
-        <item itemvalue="JUnit.TopicoRepositoryTest" />
-        <item itemvalue="JUnit.ForumApplicationTests" />
+        <item itemvalue="JUnit.br.com.alura.forum in forum" />
         <item itemvalue="JUnit.TopicoServiceTest" />
+        <item itemvalue="JUnit.TopicoServiceTest.deve listar topico por nome do curso" />
+        <item itemvalue="JUnit.TopicoServiceTest.deve listar todos os topicos quando nome do curso for nulo" />
+        <item itemvalue="Kotlin.ForumApplicationKt" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661449523114</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat:implementação do endpoint para relatórios">
+      <created>1661454038093</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661454038093</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +224,8 @@
     <MESSAGE value="add:adição de cache com redis" />
     <MESSAGE value="add:adição de cache nos services de Topicos" />
     <MESSAGE value="feat:implementação do endpoint Resposta" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:implementação do endpoint Resposta" />
+    <MESSAGE value="feat:implementação do endpoint para relatórios" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:implementação do endpoint para relatórios" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/forum$TopicoRepositoryTest.ic" NAME="TopicoRepositoryTest Coverage Results" MODIFIED="1661439913556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

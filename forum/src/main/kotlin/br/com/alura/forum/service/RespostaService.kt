@@ -12,7 +12,7 @@ class RespostaService(
 
     fun salvar(resposta: Resposta) {
         respostaRepository.save(resposta)
-        val autor = resposta.topico.autor.email
-        emailService.notificar(autor)
+        val emailAutor = resposta.topico.autor.email
+        emailService.notificar(emailAutor)
     }
 }

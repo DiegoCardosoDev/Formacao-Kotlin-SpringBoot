@@ -16,10 +16,10 @@ import org.springframework.stereotype.Service
 
 @Service
 class TopicoService(
-    private val repository: TopicoRepository,
-    private val topicoViewMapper: TopicoViewMapper,
-    private val topicoFormMapper: TopicoFormMapper,
-    private val notFoundMessage: String = "Topico nao encontrado!"
+        private val repository: TopicoRepository,
+        private val topicoViewMapper: TopicoViewMapper,
+        private val topicoFormMapper: TopicoFormMapper,
+        private val notFoundMessage: String = "Topico nao encontrado!"
 ) {
 
     @Cacheable(cacheNames = ["Topicos"], key = "#root.method.name")
@@ -38,7 +38,7 @@ class TopicoService(
 
     fun buscarPorId(id: Long): TopicoView {
         val topico = repository.findById(id)
-            .orElseThrow{NotFoundException(notFoundMessage)}
+                .orElseThrow{NotFoundException(notFoundMessage)}
         return topicoViewMapper.map(topico)
     }
 
@@ -52,7 +52,7 @@ class TopicoService(
     @CacheEvict(cacheNames = ["Topicos"], allEntries = true)
     fun atualizar(form: AtualizacaoTopicoForm): TopicoView {
         val topico = repository.findById(form.id)
-            .orElseThrow{NotFoundException(notFoundMessage)}
+                .orElseThrow{NotFoundException(notFoundMessage)}
         topico.titulo = form.titulo
         topico.mensagem = form.mensagem
         return topicoViewMapper.map(topico)
