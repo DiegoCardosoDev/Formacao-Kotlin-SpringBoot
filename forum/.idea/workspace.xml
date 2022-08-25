@@ -4,68 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f59d7a83-a6c7-4527-93f5-61573522f076" name="Changes" comment="">
+    <list default="true" id="f59d7a83-a6c7-4527-93f5-61573522f076" name="Changes" comment="add:adição de cache com redis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/ForumApplication.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/config/JwtUtil.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/config/OpenAPI3Config.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/config/SecurityConfiguration.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/controller/HelloController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/controller/TopicoController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/AtualizacaoTopicoForm.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/ErrorView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/NovoTopicoForm.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/TopicoPorCategoriaDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/dto/TopicoView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/exception/ExceptionHandler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/exception/NotFoundException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/mapper/Mapper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/mapper/TopicoFormMapper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/mapper/TopicoViewMapper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Credentials.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Curso.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Resposta.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Role.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/StatusTopico.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Topico.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/model/Usuario.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/repository/CursoRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/repository/TopicoRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/repository/UsuarioRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/security/JWTAuthenticationFilter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/security/JWTLoginFilter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/service/CursoService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/service/TopicoService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/service/UserDetail.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/kotlin/br/com/alura/forum/service/UsuarioService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/application-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V10__alter_table_topico_add_data_alteracao.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V1__create_table_curso.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V2__create_table_usuario.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V3__create_table_topico.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V4__create_table_resposta.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V5__alter_table_usuario_add_password.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V6__insert_password_usuario.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V7__create_table_role.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V8__create_table_usuario_role.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/main/resources/db/migration/V9__insert_topico.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/controller/TopicoControllerTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/integration/TopicoRepositoryTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/model/CursoTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/model/TopicoTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/model/TopicoViewTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/model/UsuarioTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/src/test/kotlin/br/com/alura/forum/service/TopicoServiceTest.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,17 +32,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/dcardosodo/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.3/spring-boot-autoconfigure-2.7.3.jar",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dcardosodo/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.3/spring-boot-autoconfigure-2.7.3.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.TopicoRepositoryTest.deve gerar um relatorio">
+}</component>
+  <component name="RunManager" selected="Kotlin.ForumApplicationKt">
     <configuration name="ForumApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="forum" />
       <extension name="coverage">
@@ -173,10 +113,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ForumApplicationKt" />
         <item itemvalue="JUnit.TopicoRepositoryTest.deve gerar um relatorio" />
         <item itemvalue="JUnit.TopicoRepositoryTest" />
         <item itemvalue="JUnit.ForumApplicationTests" />
-        <item itemvalue="Kotlin.ForumApplicationKt" />
         <item itemvalue="JUnit.TopicoServiceTest" />
       </list>
     </recent_temporary>
@@ -190,6 +130,49 @@
       <option name="presentableId" value="Default" />
       <updated>1661436271939</updated>
     </task>
+    <task id="LOCAL-00001" summary="refatory full">
+      <created>1661440029106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661440029106</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refatory full">
+      <created>1661440076283</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661440076283</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add:adição de cache com redis">
+      <created>1661447457066</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661447457066</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refatory full" />
+    <MESSAGE value="add:adição de cache com redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:adição de cache com redis" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/forum$TopicoRepositoryTest.ic" NAME="TopicoRepositoryTest Coverage Results" MODIFIED="1661439913556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.alura.forum.integration.*</FILTER>
+    </SUITE>
   </component>
 </project>
